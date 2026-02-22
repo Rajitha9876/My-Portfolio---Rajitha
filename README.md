@@ -1,9 +1,11 @@
-# Hi, I'm Rajitha 👋
+Hi, I'm Rajitha — Manual Tester | QA Professional | Lifelong Learner | Quality-Driven Software Testing Enthusiast
 
 ## 👩‍💻 About Me
-Manual Tester with 4+ years of experience in a leading MNC.  
-Strong knowledge of software testing concepts, test case design, and defect management.  
-Also skilled in parallel development to support quality-driven software delivery.
+A results-driven Manual Tester with over 4 years of experience in a leading MNC, delivering high-quality and reliable software solutions. Possesses strong expertise in software testing principles, SDLC & STLC, test case design, and defect management, ensuring product stability and customer satisfaction.
+
+Demonstrates a proactive approach to quality assurance by identifying risks early and driving defect prevention strategies across development cycles. Brings added value through parallel development knowledge, enabling effective collaboration with cross-functional teams and supporting quality-driven delivery.
+
+Currently strengthening capabilities in API testing and automation fundamentals to evolve as a versatile and future-ready QA professional.
 
 ## 🛠 Skills
 - 🔹Manual Testing
