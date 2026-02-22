@@ -1,217 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Rajitha | QA Professional</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /* Animated tech gradient background */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      color: #f0f0f0;
-      background: linear-gradient(270deg, #0f2027, #203a43, #2c5364);
-      background-size: 600% 600%;
-      animation: gradientAnimation 15s ease infinite;
-      position: relative;
-    }
+<meta charset="UTF-8">
+<title>Rajitha | QA Professional</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+  /* Theme variables */
+  :root {
+    --bg-color: #0f2027;
+    --section-bg: rgba(0,0,0,0.7);
+    --text-color: #f0f0f0;
+    --accent-color: #00ffea;
+  }
 
-    @keyframes gradientAnimation {
-      0%{background-position:0% 50%;}
-      50%{background-position:100% 50%;}
-      100%{background-position:0% 50%;}
-    }
+  body.light {
+    --bg-color: #f4f7fb;
+    --section-bg: rgba(255,255,255,0.9);
+    --text-color: #333;
+    --accent-color: #2575fc;
+  }
 
-    /* Subtle tech overlay pattern */
-    body::before {
-      content: "";
-      position: fixed;
-      top:0; left:0;
-      width:100%; height:100%;
-      background-image: url('https://www.transparenttextures.com/patterns/connected.png');
-      opacity: 0.1;
-      z-index:0;
-    }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: var(--text-color);
+    background: linear-gradient(270deg, #0f2027, #203a43, #2c5364);
+    background-size: 600% 600%;
+    animation: gradientAnimation 15s ease infinite;
+    position: relative;
+    transition: all 0.5s ease;
+  }
 
-    .container {
-      position: relative;
-      z-index: 1;
-      width: 90%;
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
+  @keyframes gradientAnimation {
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+  }
 
-    h1, h2 {
-      color: #00ffea;
-    }
+  body::before {
+    content: "";
+    position: fixed;
+    top:0; left:0;
+    width:100%; height:100%;
+    background-image: url('https://www.transparenttextures.com/patterns/connected.png');
+    opacity: 0.1;
+    z-index:0;
+  }
 
-    ul {
-      line-height: 1.8;
-    }
+  .container {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
 
-    .banner img {
-      width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-    }
+  h1, h2 { color: var(--accent-color); }
 
-    .section {
-      background: rgba(0,0,0,0.7);
-      padding: 20px;
-      margin-top: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-      transition: transform 0.3s ease;
-    }
+  ul { line-height: 1.8; }
 
-    .section:hover {
-      transform: translateY(-5px);
-    }
+  .banner img { width: 100%; border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.5); }
 
-    a {
-      color: #00ffea;
-      text-decoration: none;
-      font-weight: bold;
-    }
+  .section {
+    background: var(--section-bg);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, background 0.5s ease;
+  }
 
-    .stats img {
-      width: 100%;
-      margin-top: 10px;
-      border-radius: 10px;
-    }
+  .section:hover { transform: translateY(-5px); }
 
-    .badges img {
-      margin: 5px;
-    }
+  a { color: var(--accent-color); text-decoration: none; font-weight: bold; }
 
-    @media (max-width: 768px) { h1 { font-size: 24px; } }
+  .stats img { width: 100%; margin-top: 10px; border-radius: 10px; }
 
-    /* Typing animation */
-    .typing {
-      font-weight: bold;
-      color: #00ffea;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 4px solid #00ffea;
-      animation: typing 3.5s steps(40, end), blink 0.75s step-end infinite;
-      font-size: 28px;
-    }
+  .badges img { margin: 5px; }
 
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 100%; }
-    }
+  @media (max-width: 768px) { h1 { font-size: 24px; } }
 
-    @keyframes blink {
-      50% { border-color: transparent; }
-    }
-  </style>
+  /* Typing animation */
+  .typing {
+    font-weight: bold;
+    color: var(--accent-color);
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid var(--accent-color);
+    animation: typing 3.5s steps(40, end), blink 0.75s step-end infinite;
+    font-size: 28px;
+  }
+
+  @keyframes typing { from { width: 0; } to { width: 100%; } }
+  @keyframes blink { 50% { border-color: transparent; } }
+
+  /* Skill icons animation */
+  .skills i {
+    font-size: 28px;
+    margin: 10px;
+    transition: transform 0.3s, color 0.3s;
+  }
+  .skills i:hover {
+    transform: scale(1.4) rotate(10deg);
+    color: var(--accent-color);
+  }
+
+  /* Toggle button */
+  .toggle-btn {
+    position: fixed;
+    top: 20px; right: 20px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: var(--accent-color);
+    color: var(--bg-color);
+    cursor: pointer;
+    z-index: 10;
+    font-weight: bold;
+    border: none;
+  }
+</style>
 </head>
 <body>
 
-  <!-- Banner -->
-  <div class="banner">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=220&section=header&text=Rajitha%20-%20QA%20Professional&fontSize=32&fontColor=ffffff" alt="Banner">
+<button class="toggle-btn" onclick="toggleTheme()">🌗 Toggle Dark/Light</button>
+
+<div class="banner">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=220&section=header&text=Rajitha%20-%20QA%20Professional&fontSize=32&fontColor=ffffff" alt="Banner">
+</div>
+
+<div class="container">
+
+  <div class="section">
+    <h1 class="typing">Hi, I'm Rajitha — QA Professional</h1>
+    <p>Manual Tester | Lifelong Learner | Quality-Driven Software Testing Enthusiast</p>
   </div>
 
-  <div class="container">
-
-    <div class="section">
-      <h1 class="typing">Hi, I'm Rajitha — QA Professional</h1>
-      <p>Manual Tester | Lifelong Learner | Quality-Driven Software Testing Enthusiast</p>
-    </div>
-
-    <div class="section">
-      <h2>👩‍💻 About Me</h2>
-      <p>A results-driven Manual Tester with over 4 years of experience in a leading MNC, delivering high-quality and reliable software solutions. Demonstrates strong expertise in software testing principles, SDLC & STLC, test case design, and defect management, ensuring product stability and customer satisfaction.</p>
-      <p>Known for a proactive approach to quality assurance by identifying risks early and driving defect prevention strategies throughout the development lifecycle. Adds value through parallel development knowledge, enabling effective collaboration with cross-functional teams and supporting quality-driven delivery. Strengthening skills in API testing and automation fundamentals to grow as a versatile and future-ready QA professional.</p>
-    </div>
-
-    <div class="section">
-      <h2>🛠 Skills</h2>
-      <ul>
-        <li>Manual Testing</li>
-        <li>Test Case Design</li>
-        <li>Defect Tracking</li>
-        <li>SDLC & STLC</li>
-        <li>HTML, CSS, JavaScript (Basic)</li>
-        <li>SQL (Basic)</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>🚀 Currently Working On</h2>
-      <ul>
-        <li>Improving test case design techniques</li>
-        <li>Practicing SQL queries for testing</li>
-        <li>Learning API testing with Postman</li>
-        <li>Exploring basic automation testing concepts</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>📚 Currently Learning</h2>
-      <ul>
-        <li>Selenium (Basics)</li>
-        <li>API Testing (Postman)</li>
-        <li>Advanced SQL for Testing</li>
-        <li>Git & GitHub Collaboration</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>🧪 Tools I Use</h2>
-      <ul>
-        <li>JIRA</li>
-        <li>Postman</li>
-        <li>Git & GitHub</li>
-        <li>Chrome DevTools</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>📂 Projects</h2>
-      <ul>
-        <li>Manual Testing Project – Sample Web App</li>
-        <li>Test Cases for Popular Websites</li>
-        <li>Login Page + Test Scenarios</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>📫 Connect With Me</h2>
-      <p>
-        <a href="https://github.com/Rajitha9876" target="_blank">GitHub</a> | 
-        <a href="https://www.linkedin.com/in/rajitha-munganda-4378071b5/" target="_blank">LinkedIn</a>
-      </p>
-    </div>
-
-    <div class="section">
-      <h2>📄 Resume</h2>
-      <p>
-        <a href="https://github.com/Rajitha9876/Rajitha9876/raw/main/Rajitha_Resume.pdf" download>Download My Resume</a>
-      </p>
-    </div>
-
-    <div class="section stats">
-      <h2>📊 GitHub Stats</h2>
-      <img src="https://github-readme-stats.vercel.app/api?username=Rajitha9876&show_icons=true&theme=tokyonight" alt="GitHub Stats">
-      <img src="https://streak-stats.demolab.com?user=Rajitha9876&theme=tokyonight" alt="GitHub Streak">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rajitha9876&theme=tokyo-night" alt="Activity Graph">
-    </div>
-
-    <div class="section badges">
-      <h2>🏷 Badges</h2>
-      <img src="https://img.shields.io/badge/Manual_Testing-Expert-blue">
-      <img src="https://img.shields.io/badge/QA-4+_Years-success">
-      <img src="https://img.shields.io/badge/HTML-Basic-orange">
-      <br><br>
-      <img src="https://img.shields.io/github/followers/Rajitha9876?label=Followers&style=social">
-      <img src="https://img.shields.io/badge/Following-23-orange">
-    </div>
-
+  <div class="section">
+    <h2>👩‍💻 About Me</h2>
+    <p>A results-driven Manual Tester with over 4 years of experience in a leading MNC, delivering high-quality and reliable software solutions. Strong expertise in SDLC & STLC, test case design, and defect management, ensuring product stability and customer satisfaction.</p>
+    <p>Proactive QA professional with parallel development knowledge for effective collaboration. Currently strengthening API testing and automation fundamentals to evolve as a versatile QA expert.</p>
   </div>
+
+  <div class="section">
+    <h2>🛠 Skills</h2>
+    <div class="skills">
+      <i class="fab fa-html5" title="HTML"></i>
+      <i class="fab fa-css3-alt" title="CSS"></i>
+      <i class="fab fa-js" title="JavaScript"></i>
+      <i class="fas fa-database" title="SQL"></i>
+      <i class="fas fa-vial" title="API Testing"></i>
+      <i class="fab fa-git-alt" title="Git"></i>
+      <i class="fab fa-selenium" title="Selenium"></i>
+      <i class="fas fa-tools" title="Manual Testing"></i>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🚀 Currently Working On</h2>
+    <ul>
+      <li>Improving test case design techniques</li>
+      <li>Practicing SQL queries for testing</li>
+      <li>Learning API testing with Postman</li>
+      <li>Exploring basic automation testing concepts</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📚 Currently Learning</h2>
+    <ul>
+      <li>Selenium (Basics)</li>
+      <li>API Testing (Postman)</li>
+      <li>Advanced SQL for Testing</li>
+      <li>Git & GitHub Collaboration</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🧪 Tools I Use</h2>
+    <ul>
+      <li>JIRA</li>
+      <li>Postman</li>
+      <li>Git & GitHub</li>
+      <li>Chrome DevTools</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📂 Projects</h2>
+    <ul>
+      <li>Manual Testing Project – Sample Web App</li>
+      <li>Test Cases for Popular Websites</li>
+      <li>Login Page + Test Scenarios</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📫 Connect With Me</h2>
+    <p>
+      <a href="https://github.com/Rajitha9876" target="_blank">GitHub</a> | 
+      <a href="https://www.linkedin.com/in/rajitha-munganda-4378071b5/" target="_blank">LinkedIn</a>
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>📄 Resume</h2>
+    <p>
+      <a href="https://github.com/Rajitha9876/Rajitha9876/raw/main/Rajitha_Resume.pdf" download>Download My Resume</a>
+    </p>
+  </div>
+
+  <div class="section stats">
+    <h2>📊 GitHub Stats</h2>
+    <img src="https://github-readme-stats.vercel.app/api?username=Rajitha9876&show_icons=true&theme=tokyonight" alt="GitHub Stats">
+    <img src="https://streak-stats.demolab.com?user=Rajitha9876&theme=tokyonight" alt="GitHub Streak">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rajitha9876&theme=tokyo-night" alt="Activity Graph">
+  </div>
+
+</div>
+
+<script>
+  function toggleTheme() {
+    document.body.classList.toggle('light');
+  }
+</script>
 
 </body>
 </html>
