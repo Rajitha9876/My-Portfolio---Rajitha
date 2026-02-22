@@ -55,6 +55,8 @@ https://github.com/Rajitha9876/Rajitha9876/raw/main/Rajitha_Resume.pdf
 ## 📈 Activity Graph
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Rajitha9876&theme=tokyo-night)
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Rajitha9876&show_icons=true&theme=tokyonight)
+
 ## 🏷 Badges
 ![Manual Testing](https://img.shields.io/badge/Manual_Testing-Expert-blue)
 ![QA](https://img.shields.io/badge/QA-4+_Years-success)
