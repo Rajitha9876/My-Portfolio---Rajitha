@@ -6,12 +6,31 @@ Strong knowledge of software testing concepts, test case design, and defect mana
 Also skilled in parallel development to support quality-driven software delivery.
 
 ## 🛠 Skills
-- Manual Testing  
-- Test Case Design  
-- Defect Tracking  
-- SDLC & STLC  
-- HTML, CSS, JavaScript (basic)  
-- SQL (basic)
+- 🔹Manual Testing
+- 🔹Test Case Design
+- 🔹Defect Tracking
+- 🔹SDLC & STLC
+- 🔹HTML, CSS, JavaScript (basic)
+
+SQL (basic)
+**🚀 Currently Working On**
+- 🔹Improving test case design techniques
+- 🔹Practicing SQL queries for testing
+- 🔹Learning API testing with Postman
+- 🔹Exploring basic automation testing concepts
+
+**📚 Currently Learning**
+- 🔹Selenium (Basics)
+- 🔹API Testing (Postman)
+- 🔹Advanced SQL for Testing
+- 🔹Git & GitHub Collaboration
+
+**🧪 Tools I Use**
+- 🔹JIRA
+- 🔹TestRail
+- 🔹Postman
+- 🔹Git & GitHub
+- 🔹Chrome DevTools
 
 ## 📂 My Projects
 - 🔹 Manual Testing Project – Sample Web App  
@@ -21,6 +40,9 @@ Also skilled in parallel development to support quality-driven software delivery
 ## 📫 Connect With Me
 - GitHub: https://github.com/Rajitha9876 
 - LinkedIn: your-link-here
+
+## Resume##
+https://github.com/Rajitha9876/Rajitha9876/raw/main/Rajitha_Resume.pdf
 - 
 - ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Rajitha9876&show_icons=true&theme=tokyonight)
