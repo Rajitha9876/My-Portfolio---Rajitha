@@ -41,7 +41,7 @@ SQL (basic)
 
 ## 📫 Connect With Me
 - GitHub: https://github.com/Rajitha9876 
-- LinkedIn: your-link-here
+- LinkedIn: https://www.linkedin.com/in/rajitha-munganda-4378071b5/
 
 ## Resume##
 https://github.com/Rajitha9876/Rajitha9876/raw/main/Rajitha_Resume.pdf
